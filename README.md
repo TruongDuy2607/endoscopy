@@ -24,6 +24,7 @@ Each input data sample has a size of 224x224 and is assigned 2 labels correspond
         ├── Lesser curvature
         └── Dark
 ## 2. Model architecture
+To accommodate deployment on Jetson AGX Xavier, we use the MobileNet V3 architecture as the backbone of the Hierarchical model. The attention mechanism is used to increase the binding between classification branches and improve generalization in fine branch.
 <p align="center"> <img src="image/model_art/model_architecture.png" alt="landing graphic" width="85%"/></p>
 
 ## 3. Results
