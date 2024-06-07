@@ -1,7 +1,9 @@
 # Upper Gastrointestinal tract classification using Hierarchical Neural Network
-In this task, we propose a method to classify upper gastrointestinal endoscopic landmarks based on the Hierarchical Neural Network architecture.
+This research is funded by <span style="color:orange;"><b>The Viet Nam Ministry of Science and Technology under
+Grant No. KC-4.0-17/19-25 "Research and Develop Intelligent Diagnostic Assistance
+System for Upper Gastrointestinal Endoscopy Images"</b></span>. In this task, we propose a method to classify upper gastrointestinal endoscopic landmarks based on the Hierarchical Neural Network architecture.
 
-## 1. Format dataset
+## 1. Format data
 Each input data sample has a size of 224x224 and is assigned 2 labels corresponding to 2 branches: coarse branch and fine branch.
 
     
@@ -22,7 +24,7 @@ Each input data sample has a size of 224x224 and is assigned 2 labels correspond
         ├── Lesser curvature
         └── Dark
 ## 2. Model architecture
-<p align="center"> <img src="image/model_art/model_architecture.png" alt="landing graphic" width="75%" height="300px"/></p>
+<p align="center"> <img src="image/model_art/model_architecture.png" alt="landing graphic" width="85%"/></p>
 
 ## 3. Results
 ## I. Deployment with video input
@@ -36,8 +38,8 @@ python check.py --save_image --save_vid
 python check.py --video_path "path_to_video" --frame-rate 30 # default frame rate 20
 ```
 ## III. Requirements
-- Python 3.10
-- torch==1.9.0, torchvision==0.18.0, torchsummary==1.5.1
-- cuda 12.3
+- python 3.10
+- torch==2.2.1+cu121, torchvision==0.17.1+cu121, torchsummary==1.4.5
+- opencv-python==4.9.0.80
 
 
