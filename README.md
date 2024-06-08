@@ -1,4 +1,4 @@
-# Upper Gastrointestinal tract classification using Hierarchical Neural Network
+# Upper Gastrointestinal endoscopic landmark classification using Hierarchical Neural Network
 [![python: 3.10](https://img.shields.io/badge/python-3.10-yellow)](https://www.python.org/downloads/release/python-3100/)
 [![torch: 2.2.1](https://img.shields.io/badge/torch-2.2.1-blue)](https://pytorch.org/get-started/previous-versions/)
 [![torchvision: 0.17.1](https://img.shields.io/badge/torchvision-0.17.1-blue)](hhttps://pytorch.org/get-started/previous-versions/)
