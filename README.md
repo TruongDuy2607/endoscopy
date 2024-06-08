@@ -1,4 +1,11 @@
 # Upper Gastrointestinal tract classification using Hierarchical Neural Network
+[![python: 3.10](https://img.shields.io/badge/python-3.10-yellow)](https://www.python.org/downloads/release/python-3100/)
+[![torch: 2.2.1](https://img.shields.io/badge/torch-2.2.1-blue)](https://pytorch.org/get-started/previous-versions/)
+[![torchvision: 0.17.1](https://img.shields.io/badge/torchvision-0.17.1-blue)](hhttps://pytorch.org/get-started/previous-versions/)
+[![cuda:12.1](https://img.shields.io/badge/cuda-12.1-green)](https://developer.nvidia.com/cuda-12.1-download-archive)
+
+***Author:Jonny Truong***
+## 1. Overview
 This research is funded by <span style="color:orange;"><b>The Viet Nam Ministry of Science and Technology under
 Grant No. KC-4.0-17/19-25 "Research and Develop Intelligent Diagnostic Assistance
 System for Upper Gastrointestinal Endoscopy Images"</b></span>. In this task, we propose a method to classify upper gastrointestinal endoscopic landmarks based on the Hierarchical Neural Network architecture.
@@ -38,9 +45,6 @@ python check.py
 python check.py --save_image --save_vid
 python check.py --video_path "path_to_video" --frame-rate 30 # default frame rate 20
 ```
-## III. Requirements
-- python 3.10
-- torch==2.2.1+cu121, torchvision==0.17.1+cu121, torchsummary==1.4.5
-- opencv-python==4.9.0.80
+
 
 
